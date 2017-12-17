@@ -6,7 +6,7 @@
  * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
  * @copyright (c) 2016 kasimi
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
- * @Polska wersja językowa mchat - 05.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+ * @Polska wersja językowa mchat - 12.2017, Mateusz Dutko (vader) www.rnavspotters.pl
  *
  */
 
@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 
 	// Log entries (%1$s is replaced with the user name who triggered the event)
 	'LOG_MCHAT_CONFIG_UPDATE'				=> '<strong>Zmieniono ustawienia mChat</strong><br />» %1$s',
-	'LOG_MCHAT_TABLE_PRUNED'				=> '<strong>Usunięto wiadomości mChat</strong><br />» %1$s',
+	'LOG_MCHAT_TABLE_PRUNED'				=> '<strong>Usunięto wiadomości mChat</strong>',
 	'LOG_MCHAT_TABLE_PURGED'				=> '<strong>Wyczyszczono widomości mChat</strong><br />» %1$s',
 	'LOG_DELETED_MCHAT'						=> '<strong>Usunięto wiadomość mChat</strong><br />» %1$s',
 	'LOG_EDITED_MCHAT'						=> '<strong>Edytowano wiadomość mChat</strong><br />» %1$s',

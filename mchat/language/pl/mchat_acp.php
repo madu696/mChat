@@ -115,7 +115,10 @@ $lang = array_merge($lang, array(
 	'MCHAT_OVERRIDE_SMILIE_LIMIT_EXPLAIN'	=> 'Zaznacz TAK, aby włączyć limit emotikon używanych w wiadomościach mChat',
 	'MCHAT_OVERRIDE_MIN_POST_CHARS'			=> 'Minimalna liczba znaków',
 	'MCHAT_OVERRIDE_MIN_POST_CHARS_EXPLAIN'	=> 'Zaznacz TAK, aby włączyć minimalną liczba znaków używanych w wiadomościach mChat.',	
+	'MCHAT_POSTS_AUTH_CHECK'				=> 'Sprawdź ustawienia użytkownika',
+	'MCHAT_POSTS_AUTH_CHECK_EXPLAIN'		=> 'Zaznacz TAK, abu użytkownik bez uprawnień nie generował powiadomień o nowym poście/zalogowaniu.',
 
+	
 	'MCHAT_WHOIS_REFRESH'					=> 'Odświeżanie liczby czatujących użytkowników',
 	'MCHAT_WHOIS_REFRESH_EXPLAIN'			=> 'Po ilu sekundach nastąpi automatyczne odświeżanie czatujących użytkowników.<br /><em>Wybierz pomiędzy 10 a 300 sekund. Domyślnie to 60</em>.',
 	'MCHAT_SOUND'							=> 'Dźwięk podczas nowej, edytowanej i usuniętej wiadomości.',
