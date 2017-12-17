@@ -6,7 +6,7 @@
  * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
  * @copyright (c) 2016 kasimi - https://kasimi.net
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
- * @Polska wersja językowa mchat - 05.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+ * @Polska wersja językowa mchat - 12.2017, Mateusz Dutko (vader) www.rnavspotters.pl
  *
  */
 
@@ -118,7 +118,6 @@ $lang = array_merge($lang, array(
 	'MCHAT_POSTS_AUTH_CHECK'				=> 'Sprawdź ustawienia użytkownika',
 	'MCHAT_POSTS_AUTH_CHECK_EXPLAIN'		=> 'Zaznacz TAK, abu użytkownik bez uprawnień nie generował powiadomień o nowym poście/zalogowaniu.',
 
-	
 	'MCHAT_WHOIS_REFRESH'					=> 'Odświeżanie liczby czatujących użytkowników',
 	'MCHAT_WHOIS_REFRESH_EXPLAIN'			=> 'Po ilu sekundach nastąpi automatyczne odświeżanie czatujących użytkowników.<br /><em>Wybierz pomiędzy 10 a 300 sekund. Domyślnie to 60</em>.',
 	'MCHAT_SOUND'							=> 'Dźwięk podczas nowej, edytowanej i usuniętej wiadomości.',
