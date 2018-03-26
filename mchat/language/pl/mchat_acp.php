@@ -75,7 +75,7 @@ $lang = array_merge($lang, array(
 	'MCHAT_REFRESH'							=> 'Częstotliwość odświeżania',
 	'MCHAT_REFRESH_EXPLAIN'					=> 'Po ilu sekundach nastąpi automatyczne odświeżanie.<br><em>Wybierz pomiędzy 5 a 60 sekund. Domyślnie to 10 sekund</em>.',
 	'MCHAT_LIVE_UPDATES'					=> 'Natychmiastowe aktualizacje edytowanych i usuwanych wiadomości',
-	'MCHAT_LIVE_UPDATES_EXPLAIN'			=> 'Gdy użytkownik edytuje lub usunie wiadomość, zmiany są widoczna dla wszystkich bez konieczności odświeżania strony. Wyłącz tę opcję, jeśli wystąpią problemy z wydajnością.',
+	'MCHAT_LIVE_UPDATES_EXPLAIN'			=> 'Gdy użytkownik edytuje lub usunie wiadomość, zmiany są widoczne dla wszystkich bez konieczności odświeżania strony. Wyłącz tę opcję, jeśli wystąpią problemy z wydajnością.',
 	'MCHAT_PRUNE'							=> 'Włącz automatyczne usuwanie wiadomości mChat',
 	'MCHAT_PRUNE_GC'						=> 'Usuń wiadomości co',
 	'MCHAT_PRUNE_GC_EXPLAIN'				=> 'Wybierz co ile sekund będą usuwane wiadomości. <em>Domyślnie to 86400 sekund = 24 godziny.</em><br> Ustawienie to wskazuje <em>TYLKO</em> kiedy będą usuwane wiadomości, a nie jakie wiadomości zostaną usunięte.',
