@@ -66,6 +66,6 @@ $lang = array_merge($lang, [
 	'MCHAT_POSTS_LOGIN'				=> 'Wyświetl logowanie użytkownika',
 	
 	'MCHAT_DATE_FORMAT'				=> 'Format daty',
-	'MCHAT_DATE_FORMAT_EXPLAIN'		=> 'Możesz spersonalizować ustawienia daty i godziny, skorzystaj z funkcji PHP - <a href="http://www.php.net/date">date()</a>',
+	'MCHAT_DATE_FORMAT_EXPLAIN'		=> 'Możesz spersonalizować ustawienia daty i godziny, skorzystaj z funkcji PHP - <a href="https://www.php.net/manual/en/function.date.php">date()</a>',
 	'MCHAT_CUSTOM_DATEFORMAT'		=> 'Własny…',
 ]);
