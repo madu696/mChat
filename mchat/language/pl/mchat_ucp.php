@@ -6,7 +6,7 @@
  * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
  * @copyright (c) 2016 kasimi - https://kasimi.net
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
- * @Polska wersja językowa mchat - 05.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+ * @Polska wersja językowa mChat 2.1.3 - 09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
  *
  */
 
@@ -17,7 +17,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -35,17 +35,17 @@ if (empty($lang) || !is_array($lang))
 // Some characters for use
 // ’ » “ ” …
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'MCHAT_PREFERENCES'				=> 'Ustawienia mChat',
 	'MCHAT_NO_SETTINGS'				=> 'Nie masz uprawnień do zmiany ustawień mChat.',
 
 	'MCHAT_INDEX'					=> 'Wyświetl mChat na stronie głównej forum',
 	'MCHAT_SOUND'					=> 'Włącz dźwięk',
-	'MCHAT_WHOIS_INDEX'				=> 'Wyświetl kto aktualnie czatuje',
-	'MCHAT_STATS_INDEX'				=> 'Wyświetl kto aktualnie czatuje w statystykach forum',
+	'MCHAT_WHOIS_INDEX'				=> 'Wyświetl, kto aktualnie czatuje',
+	'MCHAT_STATS_INDEX'				=> 'Wyświetl, kto aktualnie czatuje w statystykach forum',
 	'MCHAT_STATS_INDEX_EXPLAIN'		=> 'Informacja wyświetli się poniżej <em>Kto jest online</em> na stronie głównej.',
 	'MCHAT_AVATARS'					=> 'Wyświetl awatary',
-	'MCHAT_CAPITAL_LETTER'			=> 'Rozpocznij wiadomość z dużej litery',
+	'MCHAT_CAPITAL_LETTER'			=> 'Rozpocznij wiadomość dużą literą',
 	'MCHAT_CHAT_AREA'				=> 'Typ wprowadzania',
 	'MCHAT_INPUT_AREA'				=> 'Pole wprowadzania',
 	'MCHAT_TEXT_AREA'				=> 'Pole tekstowe',
@@ -53,8 +53,6 @@ $lang = array_merge($lang, array(
 	'MCHAT_DISPLAY_CHARACTER_COUNT'	=> 'Wyświetl długość wpisanej wiadomości',
 	'MCHAT_RELATIVE_TIME'			=> 'Wyświetl, kiedy była wysłana wiadomość',
 	'MCHAT_RELATIVE_TIME_EXPLAIN'	=> '"Teraz", "1 minutę temu" itd. dla każdej wiadomości. Ustaw <em>Nie</em>, aby zawsze wyświetlić pełną datę.',
-	'MCHAT_PAUSE_ON_INPUT'			=> 'Przerwa podczas pisania wiadomości',
-	'MCHAT_PAUSE_ON_INPUT_EXPLAIN'	=> 'Nie odświeżaj mChat podczas pisania wiadomości.',
 	'MCHAT_MESSAGE_TOP'				=> 'Pozycja nowej wiadomości',
 	'MCHAT_MESSAGE_TOP_EXPLAIN'		=> 'Nowa wiadomość pojawi się na górze lub dole czatu.',
 	'MCHAT_LOCATION'				=> 'Pozycja na stronie głównej forum',
@@ -70,4 +68,4 @@ $lang = array_merge($lang, array(
 	'MCHAT_DATE_FORMAT'				=> 'Format daty',
 	'MCHAT_DATE_FORMAT_EXPLAIN'		=> 'Możesz spersonalizować ustawienia daty i godziny, skorzystaj z funkcji PHP - <a href="http://www.php.net/date">date()</a>',
 	'MCHAT_CUSTOM_DATEFORMAT'		=> 'Własny…',
-));
+]);

@@ -4,9 +4,9 @@
  *
  * @package phpBB Extension - mChat
  * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
- * @copyright (c) 2016 kasimi
+ * @copyright (c) 2016 kasimi - https://kasimi.net
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
- * @Polska wersja językowa mchat - 03.2018, Mateusz Dutko (vader) www.rnavspotters.pl
+ * @Polska wersja językowa mChat 2.1.3 - 09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
  *
  */
 
@@ -17,7 +17,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // Some characters for use
 // ’ » “ ” …
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	// Module titles
 	'ACP_CAT_MCHAT'							=> 'Ustawienia mChat',
 	'ACP_CAT_MCHAT_USER_CONFIG'				=> 'Preferencje użytkownika',
@@ -48,4 +48,4 @@ $lang = array_merge($lang, array(
 	'LOG_MCHAT_TABLE_PURGED'				=> '<strong>Wyczyszczono widomości mChat</strong><br>» %1$s',
 	'LOG_DELETED_MCHAT'						=> '<strong>Usunięto wiadomość mChat</strong><br>» %1$s',
 	'LOG_EDITED_MCHAT'						=> '<strong>Edytowano wiadomość mChat</strong><br>» %1$s',
-));
+]);

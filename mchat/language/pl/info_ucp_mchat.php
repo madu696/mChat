@@ -4,8 +4,9 @@
  *
  * @package phpBB Extension - mChat
  * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
- * @copyright (c) 2016 kasimi
+ * @copyright (c) 2016 kasimi - https://kasimi.net
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+ * @Polska wersja językowa mChat 2.1.3 - 09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
  *
  */
 
@@ -16,7 +17,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -34,6 +35,6 @@ if (empty($lang) || !is_array($lang))
 // Some characters for use
 // ’ » “ ” …
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'UCP_MCHAT_CONFIG' => 'mChat',
-));
+]);
